@@ -1,2 +1,3 @@
-# cross-server-demo
-一个跨服实现的demo
+# 游戏跨服服务器的实现demo
+1. 包括游戏服务器、跨服服务器、匹配服务器
+2. 使用的技术栈包括sofa-bolt、sofarpc等
