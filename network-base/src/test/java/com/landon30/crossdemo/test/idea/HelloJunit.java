@@ -3,6 +3,11 @@ package com.landon30.crossdemo.test.idea;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * 使用idea编写的第一个junit
+ *
+ * @author landon30
+ */
 public class HelloJunit {
 
     @Test
