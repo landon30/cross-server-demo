@@ -1,3 +1,5 @@
+package com.landon30.crossdemo.test.idea;
+
 import org.junit.Assert;
 import org.junit.Test;
 
