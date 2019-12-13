@@ -21,5 +21,6 @@
     <orderEntry type="library" name="Maven: com.alipay.sofa.common:sofa-common-tools:1.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.12.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.12.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.1" level="project" />
   </component>
 </module>
