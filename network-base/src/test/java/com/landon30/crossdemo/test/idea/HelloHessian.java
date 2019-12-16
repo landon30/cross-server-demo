@@ -14,7 +14,7 @@ import java.util.Arrays;
  *
  * @author landon30
  */
-public class TestHessian {
+public class HelloHessian {
     public static void main(String[] args) throws Exception {
         // bytes由protobuf序列化得到
         Protocol.PlayerInfoMsg.Builder builder = Protocol.PlayerInfoMsg.newBuilder();
