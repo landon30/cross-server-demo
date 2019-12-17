@@ -19,6 +19,10 @@ public class CrossNetMessage implements Serializable {
         this.body = body;
     }
 
+    public CrossNetMessage(int msgType) {
+        this.msgType = msgType;
+    }
+
     public int getMsgType() {
         return msgType;
     }
