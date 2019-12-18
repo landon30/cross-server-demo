@@ -1,0 +1,39 @@
+syntax = "proto2";
+
+package protocol.msg;
+option java_package = "com.landon30.crossdemo.test.proto";
+
+
+// 跨服玩家A的报名数据
+message APlayerMsg
+{
+    optional int32 serverId = 1;// 服务器id
+    optional int64 roleId = 2;// 角色id
+	optional int32 fight = 3;// 角色战力
+}
+
+// 跨服匹配数据
+message APlayerMatchMsg
+{
+    optional int32 serverId = 1;// 服务器id
+    optional int64 roleId = 2;// 角色id
+}
+
+message APlayerDetailMsg
+{
+    optional int32 serverId = 1;// 服务器id
+    optional int64 roleId = 2;// 角色id
+	optional int32 fight = 3;// 角色战力
+	optional bytes roleDetail = 4;// 角色详细信息
+}
+
+enum CrossMsgType
+{
+    // 去匹配服报名
+    G_CROSS_PLAYA_SIGN_UP = 10001;
+	// 去匹配
+	G_CROSS_PLAYA_MATCH = 10002;
+	
+	// 获取跨服玩家详细信息
+	CROSS_PLAYA_PLAYER_DETAIL = 200001;
+}
